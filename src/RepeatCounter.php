@@ -12,7 +12,13 @@
                     $result += 1;
                 }
             }
-            return $result;
+
+            if ($result <= 0) {
+                return "Your word does not appear in the given phrase.";
+            }else {
+                return $result;
+            }
+            
         }
     }
  ?>

@@ -34,7 +34,7 @@
         }
 
         //Tests a one letter word against a two word phrase with no matches
-        function test_countRepeats_twoWord()
+        function test_countRepeats_twoWordNoMatch()
         {
             //Arrange
             $test_RepeatCounter = new RepeatCounter;
