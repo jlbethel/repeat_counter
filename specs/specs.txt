@@ -19,9 +19,11 @@ input: epicodus
 output: 3
 
 6)It searches a multiple word string containing words with irregular capitalization for a multiple letter word with irregular capitalization and returns the count. (String contains three matching words)
+input: ePicodus
+output: 3
 
 7)It searches a multiple word string containing words and numbers for a multiple letter word and returns the count.(String contains four matching words)
-input: ePicodus
+input: epicodus
 output: 4
 
 8)It searches a multiple word string with punctuation for a multiple letter word and returns the count. (String contains four matching words)

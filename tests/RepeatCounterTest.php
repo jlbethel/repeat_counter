@@ -78,7 +78,6 @@
             $this->assertEquals("3", $result);
         }
 
-
         //Tests a word with IrReGular capitalization against a phrase with iRreGular capitalization
         function test_countRepeats_threeWordCapitalsWord()
         {
@@ -86,6 +85,21 @@
             $test_RepeatCounter = new RepeatCounter;
             $user_word = "ePicoDus";
             $user_phrase = "EpiCodus iS epicodus and Epicodus is fun";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($user_word, $user_phrase);
+
+            //Assert
+            $this->assertEquals("3", $result);
+        }
+
+        //Tests a word against a phrase with words and numbers
+        function test_countRepeats_threeWordCapitalsWord()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $user_word = "ePicoDus";
+            $user_phrase = "EpiCodus iS epicodus and Epicodus is fun for at least 1 epicodus student";
 
             //Act
             $result = $test_RepeatCounter->countRepeats($user_word, $user_phrase);
