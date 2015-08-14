@@ -49,7 +49,7 @@
         }
 
         //Tests a word against a phrase that has 2 matches
-        function test_countRepeats_twoWordTwoMatch()
+        function test_countRepeats_threeWordTwoMatch()
         {
             //Arrange
             $test_RepeatCounter = new RepeatCounter;
@@ -64,7 +64,7 @@
         }
 
         //Tests a word against a phrase with iRreGular capitalization
-        function test_countRepeats_threeWordCapitalsPhrase()
+        function test_countRepeats_irregularCapitalsPhrase()
         {
             //Arrange
             $test_RepeatCounter = new RepeatCounter;
@@ -79,7 +79,7 @@
         }
 
         //Tests a word with IrReGular capitalization against a phrase with iRreGular capitalization
-        function test_countRepeats_threeWordCapitalsWord()
+        function test_countRepeats_irregularCapitalsWord()
         {
             //Arrange
             $test_RepeatCounter = new RepeatCounter;
@@ -94,7 +94,7 @@
         }
 
         //Tests a word against a phrase with words and numbers
-        function test_countRepeats_threeWordCapitalsWord()
+        function test_countRepeats_numberTest()
         {
             //Arrange
             $test_RepeatCounter = new RepeatCounter;
@@ -105,7 +105,7 @@
             $result = $test_RepeatCounter->countRepeats($user_word, $user_phrase);
 
             //Assert
-            $this->assertEquals("3", $result);
+            $this->assertEquals("4", $result);
         }
     }
 ?>
