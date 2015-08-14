@@ -14,7 +14,7 @@ output: Your word does not appear in the given phrase
 input: epicodus
 output: 2
 
-5)It searches a multiple word string containing words with irregular casing for a multiple letter word and returns the count. (String contains 3 matching words but with irregular casing)
+5)It searches a multiple word string containing words with irregular capitalization for a multiple letter word and returns the count. (String contains 3 matching words but with irregular capitalization)
 input: epicodus
 output: 3
 

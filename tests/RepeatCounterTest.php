@@ -62,5 +62,20 @@
             //Assert
             $this->assertEquals("2", $result);
         }
+
+        //Tests a word against a phrase with iRreGular capitalization
+        function test_countRepeats_twoWordCapitals()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $user_word = "epicodus";
+            $user_phrase = "EpiCodus iS epicodus and Epicodus is fun";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($user_word, $user_phrase);
+
+            //Assert
+            $this->assertEquals("3", $result);
+        }
     }
 ?>
