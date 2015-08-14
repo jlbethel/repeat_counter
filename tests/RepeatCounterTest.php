@@ -3,6 +3,7 @@
 
     class RepeatCounterTest extends PHPUnit_Framework_TestCase
     {
+        //Tests a one letter word against a one letter phrase
         function test_countRepeats_oneLetter()
         {
             //Arrange
@@ -17,6 +18,7 @@
             $this->assertEquals("1", $result);
         }
 
+        //Tests a one letter word against a two word phrase
         function test_countRepeats_twoWord()
         {
             //Arrange
@@ -30,6 +32,6 @@
             //Assert
             $this->assertEquals("1", $result);
         }
-        
+
     }
 ?>
