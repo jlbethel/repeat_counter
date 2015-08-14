@@ -16,8 +16,8 @@
     //Set path to results page. Push users input through countRepeats method and return results.
     $app->get("/results", function() use ($app) {
         $counter = new RepeatCounter;
-        $counter_results = $counter->countRepeats($_GET['word'], $_GET['phrase']);
-        return $app['twig']->render('counter_results.html.twig', array('result' => $counter_results));
+        $counter_result = $counter->countRepeats($_GET['word'], $_GET['phrase']);
+        return $app['twig']->render('counter_results.html.twig', array('result' => $counter_result));
     });
 
     return $app;
