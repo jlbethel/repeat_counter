@@ -1,4 +1,4 @@
-# Repeat Counter
+# _{Repeat Counter}_
 
 ##### Counts the number of times a word appears in given phrase, current as of 8/14/2015
 
