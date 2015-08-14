@@ -1,32 +1,34 @@
 # Repeat Counter
 
-##### _{Brief description of application}, {Date of current version}_
+##### Counts the number of times a word appears in given phrase, current as of 8/14/2015
 
-#### By _**{List of contributors}**_
+#### By _Jason Bethel_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
-
+This app will allow a user to enter their word and phrase into a form on a website. The app will then count the number of times the user's word occurs in their entered phrase. Then a new page is displayed with the results. The user may click on a link to return to the original page.
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+1.Open the terminal and clone this repository using the command 'git clone https://github.com/jlbethel/repeat_counter.git'. Move to the top level of the project folder.
 
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+2.In the terminal run 'composer install' to download needed vendor files. Be patient this may take a minute.
+
+3.Move to the 'web' folder and start your server. In the terminal run 'php -S localhost:8000'. Note: You will need to leave this terminal open to keep the server running. You may want to open a new terminal tab/window to run the server.
+
+4.Navigate your preferred browser to the home page. For this app the address will be 'https://localhost:8000'
+
+5.Enjoy the app!
+
 
 ## Technologies Used
-
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+This app was created using:
+PHP, Twig, and Silex. PHPUnit was used for bdd testing (specs and Test files are included the folders specs and tests, respectivley)
 
 ### Legal
 
 *{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
 
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 Jason Bethel
 
 This software is licensed under the MIT license.
 
