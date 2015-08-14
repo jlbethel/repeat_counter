@@ -4,8 +4,10 @@
         function countRepeats($user_word, $user_phrase)
         {
             $result = 0;
+            $punctuation_array = array('!', '.', ',', ';', '?', '-', '#', '@', '%', '/', '_', '(', ')', ':', '"', '&');
+            $no_punctuation_phrase = str_replace($punctuation_array, "", $user_phrase);
             $user_lcword = strtolower($user_word);
-            $user_lcphrase = strtolower($user_phrase);
+            $user_lcphrase = strtolower($no_punctuation_phrase);
             $phrase_array = explode(" ", $user_lcphrase);
 
             //Begin foreach loop to test the user's word against the user's phrase
