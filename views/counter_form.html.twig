@@ -1,8 +1,20 @@
 <html>
     <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
         <title>Let me count words</title>
     </head>
     <body>
-        <h1>Repeate Counter App</h1>
+        <div class='container'>
+            <h1>Repeat Counter App</h1>
+            <form action='/results'>
+                <div class='form-group'>
+                    <label for='word'>Enter the word you want to look for:</label>
+                    <input id='word' name='word'class='form-control' type='text'>
+                    <label for='phrase'>Enter the phrase you want to search:</label>
+                    <input id-'phrase' name='phrase' class='form-control' type='text'>
+                </div>
+                <button type='submit'>Search!</button>
+            </form>
+        </div>
     </body>
 </html>
