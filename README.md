@@ -21,8 +21,9 @@ This app will allow a user to enter their word and phrase into a form on a websi
 
 
 ## Technologies Used
+
 This app was created using:
-PHP, Twig, and Silex. PHPUnit was used for bdd testing (specs and Test files are included the folders specs and tests, respectivley)
+PHP 5.6.11, Twig 1.0, and Silex 1.1. PHPUnit 4.5 was used for bdd testing (specs and Test files are included the folders specs and tests, respectivley).
 
 ### Legal
 
