@@ -4,7 +4,8 @@
         function countRepeats($user_word, $user_phrase)
         {
             $result = 0;
-            $phrase_array = explode(" ", $user_phrase);
+            $user_lcphrase = strtolower($user_phrase);
+            $phrase_array = explode(" ", $user_lcphrase);
 
             //Begin foreach loop to test the user's word against the user's phrase
             foreach ($phrase_array as $word) {
