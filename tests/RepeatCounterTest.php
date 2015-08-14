@@ -48,5 +48,19 @@
             $this->assertEquals("Your word does not appear in the given phrase.", $result);
         }
 
+        //Tests a word against a phrase that has 2 matches
+        function test_countRepeats_twoWordTwoMatch()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $user_word = "epicodus";
+            $user_phrase = "epicodus is epicodus";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($user_word, $user_phrase);
+
+            //Assert
+            $this->assertEquals("2", $result);
+        }
     }
 ?>
