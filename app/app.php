@@ -13,5 +13,10 @@
         return $app['twig']->render('counter_form.html.twig');
     });
 
+    //Set path to results page
+    $app->get("/results", function() use ($app) {
+        return $app['twig']->render('counter_results.html.twig');
+    });
+
     return $app;
 ?>
