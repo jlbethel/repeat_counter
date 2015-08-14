@@ -114,7 +114,7 @@
             //Arrange
             $test_RepeatCounter = new RepeatCounter;
             $user_word = "ePicoDus";
-            $user_phrase = "#EpiCodus# iS epicodus; Epicodus is fun for at least 1 epicodus student, but probabbly more.";
+            $user_phrase = "#EpiCodus# iS epicodus; _Epicodus_ is fun for at least 1 epicodus student, but probabbly more.";
 
             //Act
             $result = $test_RepeatCounter->countRepeats($user_word, $user_phrase);
