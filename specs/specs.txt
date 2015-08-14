@@ -1,0 +1,27 @@
+1) It searches a one word, one letter string, for a one letter word and returns the count.
+input: a
+output: 1
+
+2)It searches a string a two word string for a one letter word and returns the count. (String contains one matching word)
+input: a
+output: 1
+
+3)It searches a multiple word string for a one letter word and returns the count. (String contains no matching words)
+input: a
+output: Your word does not appear in the given phrase
+
+4)It searches a multiple word string for a multiple letter word and returns the count. (String contains two matching words)
+input: epicodus
+output: 2
+
+5)It searches a multiple word string containing words with irregular casing for a multiple letter word and returns the count. (String contains 3 matching words but with irregular casing)
+input: epicodus
+output: 3
+
+6)It searches a multiple word string containing words and numbers for a multiple letter word and returns the count.(String contains 4 matching words)
+input: epicodus
+output: 4
+
+7)It searches a multiple word string with punctuation for a multiple letter word and returns the count. (String contains 4 matching words)
+input: epicodus
+output: 4
