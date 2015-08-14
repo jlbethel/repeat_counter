@@ -107,5 +107,20 @@
             //Assert
             $this->assertEquals("4", $result);
         }
+
+        //Tests a word against a phrase with punctuation.
+        function test_countRepeats_punctuationTest()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $user_word = "ePicoDus";
+            $user_phrase = "EpiCodus iS epicodus; Epicodus is fun for at least 1 epicodus student, but probabbly more.";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($user_word, $user_phrase);
+
+            //Assert
+            $this->assertEquals("4", $result);
+        }
     }
 ?>
