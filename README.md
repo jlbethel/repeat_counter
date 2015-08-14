@@ -1,35 +1,34 @@
-# _{Repeat Counter}_
+# _Repeat Counter_
 
 ##### Counts the number of times a word appears in given phrase, current as of 8/14/2015
 
-#### By _Jason Bethel_
+#### By _**Jason Bethel**_
 
 ## Description
 
-This app will allow a user to enter their word and phrase into a form on a website. The app will then count the number of times the user's word occurs in their entered phrase. Then a new page is displayed with the results. The user may click on a link to return to the original page.
+_This app will allow a user to enter their word and phrase into a form on a website. The app will then count the number of times the user's word occurs in their entered phrase. Then a new page is displayed with the results. The user may click on a link to return to the original page._
+
 ## Setup
 
-1.Open the terminal and clone this repository using the command 'git clone https://github.com/jlbethel/repeat_counter.git'. Move to the top level of the project folder.
+_1.Open the terminal and clone this repository using the command 'git clone https://github.com/jlbethel/repeat_counter.git'. Move to the top level of the project folder._
 
-2.In the terminal run 'composer install' to download needed vendor files. Be patient this may take a minute.
+_2.In the terminal run 'composer install' to download needed vendor files. Be patient this may take a minute._
 
-3.Move to the 'web' folder and start your server. In the terminal run 'php -S localhost:8000'. Note: You will need to leave this terminal open to keep the server running. You may want to open a new terminal tab/window to run the server.
+_3.Move to the 'web' folder and start your server. In the terminal run 'php -S localhost:8000'. Note: You will need to leave this terminal open to keep the server running. You may want to open a new terminal tab/window to run the server._
 
-4.Navigate your preferred browser to the home page. For this app the address will be 'https://localhost:8000'
+_4.Navigate your preferred browser to the home page. For this app the address will be 'https://localhost:8000'_
 
-5.Enjoy the app!
+_5.Enjoy the app!_
 
 
 ## Technologies Used
 
-This app was created using:
-PHP 5.6.11, Twig 1.0, and Silex 1.1. PHPUnit 4.5 was used for bdd testing (specs and Test files are included the folders specs and tests, respectivley).
+_This app was created using:
+PHP 5.6.11, Twig 1.0, and Silex 1.1. PHPUnit 4.5 was used for bdd testing (Specs and Test files are included in the folders specs and tests, respectivley)._
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 Jason Bethel
+Copyright (c) 2015 **_Jason Bethel_**
 
 This software is licensed under the MIT license.
 
