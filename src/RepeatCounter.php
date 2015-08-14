@@ -4,11 +4,14 @@
         function countRepeats($user_word, $user_phrase)
         {
             $result = 0;
+            $phrase_array = explode(" ", $user_phrase);
 
-            if ($user_word === $user_phrase) {
-                $result += 1;
+            foreach ($phrase_array as $word) {
+
+                if ($user_word === $word) {
+                    $result += 1;
+                }
             }
-
             return $result;
         }
     }
