@@ -33,5 +33,20 @@
             $this->assertEquals("1", $result);
         }
 
+        //Tests a one letter word against a two word phrase with no matches
+        function test_countRepeats_twoWord()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $user_word = "a";
+            $user_phrase = "the dog";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($user_word, $user_phrase);
+
+            //Assert
+            $this->assertEquals("Your word does not appear in the given phrase.", $result);
+        }
+
     }
 ?>
